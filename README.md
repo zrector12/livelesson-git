@@ -34,7 +34,7 @@
 
 -`git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
 
-## Branches main commit 3
+## Branches
 -`git branch <NAME>`: create branch <NAME> where you are (HEAD)
 -`git switch <NAME>`: move to a branch <NAME>
 -`git checkout <NAME>`: also move to the branch <NAME>
@@ -50,6 +50,7 @@
 -`git add <FILE>`: to mark conflict resolution
 -`git rebase --continue`: move to next commit in rebase
 -`git rebase --abort`: undo git rebase step
+-`git rebase -i <COMMIT>` `HEAD~` or <HASH> of commit to go into interactive rebase
+    - you can make multiple commit changes here, e.g., `squash`/`s`
+    - `git rebase -i <HASH>^`: use ^ to include that commit in interactive rebase
 
-- main commit 1
-- main commit 2
