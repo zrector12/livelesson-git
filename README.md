@@ -42,3 +42,4 @@
 -`git checkout -b`: ^
 -`git <NAME> -d <BRANCHNAME>`: delete branch
 -`git branch -a`: list branches
+-`git merge <BRANCH>`: merge <BRANCH> into your current branch
