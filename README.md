@@ -43,3 +43,5 @@
 -`git <NAME> -d <BRANCHNAME>`: delete branch
 -`git branch -a`: list branches
 -`git merge <BRANCH>`: merge <BRANCH> into your current branch
+-`git rebase`: command to change the histoyr of a commit 
+         -`git rebase <BRANCH>`: incorporate changes from <BRANCH> into ciurrent branch
