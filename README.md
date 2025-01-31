@@ -34,7 +34,7 @@
 
 -`git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
 
-## Branches
+## Branches branch commit 3
 -`git branch <NAME>`: create branch <NAME> where you are (HEAD)
 -`git switch <NAME>`: move to a branch <NAME>
 -`git checkout <NAME>`: also move to the branch <NAME>
@@ -50,3 +50,6 @@
 -`git add <FILE>`: to mark conflict resolution
 -`git rebase --continue`: move to next commit in rebase
 -`git rebase --abort`: undo git rebase step
+
+-branch commit -1
+-branch commit -2
