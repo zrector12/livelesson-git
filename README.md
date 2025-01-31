@@ -53,4 +53,11 @@
 -`git rebase -i <COMMIT>` `HEAD~` or <HASH> of commit to go into interactive rebase
     - you can make multiple commit changes here, e.g., `squash`/`s`
     - `git rebase -i <HASH>^`: use ^ to include that commit in interactive rebase
+-`git stash` or `git commit`: to save work before moving branchs
+  -`stash` is temporary
+  -`git stash list`: see your stashed commits
+  -`git stash apply`: apply your last stashed commit
+
+- A `merge` on the remote is called a "pull request" or "merge request"
+  - `git push <WHERE <WHAT>`
 
