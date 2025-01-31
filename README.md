@@ -34,3 +34,30 @@
 
 -`git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
 
+## Branches branch commit 3
+-`git branch <NAME>`: create branch <NAME> where you are (HEAD)
+-`git switch <NAME>`: move to a branch <NAME>
+-`git checkout <NAME>`: also move to the branch <NAME>
+-`git switch -c <NAME>`: create and move to branch <NAME> in 1 commabd
+-`git checkout -b`: ^
+-`git <NAME> -d <BRANCHNAME>`: delete branch
+-`git branch -a`: list branches
+-`git merge <BRANCH>`: merge <BRANCH> into your current branch
+-`git rebase`: command to change the histoyr of a commit 
+    -Commits from `git merge` can be automatically combined 
+-`git rebase <BRANCH>`: incorporate changes from <BRANCH> into current branch
+-`git status`: is your friend
+-`git add <FILE>`: to mark conflict resolution
+-`git rebase --continue`: move to next commit in rebase
+-`git rebase --abort`: undo git rebase step
+-`git rebase -i <COMMIT>` `HEAD~` or <HASH> of commit to go into interactive rebase
+    - you can make multiple commit changes here, e.g., `squash`/`s`
+    - `git rebase -i <HASH>^`: use ^ to include that commit in interactive rebase
+-`git stash` or `git commit`: to save work before moving branchs
+  -`stash` is temporary
+  -`git stash list`: see your stashed commits
+  -`git stash apply`: apply your last stashed commit
+
+- A `merge` on the remote is called a "pull request" or "merge request"
+  - `git push <WHERE <WHAT>`
+  - To update a PR, we make the changes to the branch locally and re-`push`
