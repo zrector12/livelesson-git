@@ -34,3 +34,11 @@
 
 -`git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
 
+## branches
+-`git branch <NAME>`: create branch <NAME> where you are (HEAD)
+-`git switch <NAME>`: move to a branch <NAME>
+-`git checkout <NAME>`: also move to the branch <NAME>
+-`git switch -c <NAME>`: create and move to branch <NAME> in 1 commabd
+-`git checkout -b`: ^
+-`git <NAME> -d <BRANCHNAME>`: delete branch
+-`git branch -a`: list branches
