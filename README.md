@@ -28,3 +28,5 @@
 -`git push <WHERE> <WHAT>`: pushes the <WHAT> branhc to <WHERE>
           `git push origin main`
 
+-`git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
+
